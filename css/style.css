@@ -1,27 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
-    background-image: url(./../images/fondo\ violeta.jpg);
+    background-image: url(./../images/fondo);
+    font-family:font-family'Comfortaa', cursive;
+    font-family: 'Slabo 27px', serif;
+    overflow-x: hidden;
 }
-.navegacion {
-    font-family: 'Comfortaa', cursive;
-    text-align: right;
-    padding: 3;
-    
-}
-
-.logo{
-    display: flex;
-    align-content: space-between;
-    align-content: flex-end;
-    height: 150px;
-}
-
 .h1{ 
     font-family: 'Bitter', serif;
     font-weight: 900;
@@ -56,20 +38,19 @@ align-items: center;
     text-align: center;
     background-color: rgb(15, 15, 15);
 }
-.bienvenidas{
-    display: flex;
-    font-size: 2,5rem;
-    padding: 3%
-}
+
 .parrafoindex{
     display: flex;
     font-weight: 300;
     align-items: center;
     padding: 2%;
 }
-.fotomirada{
-    width: 30%;
-    display: flex;
-    justify-content: left;
-    justify-content: space-between;
+
+.navbar { 
+    font-size: 13px;
+    font-weight: bold;
+}
+.foto{
+    width: 7rem;
+    height: 7rem;
 }
