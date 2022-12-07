@@ -1,8 +1,5 @@
 body{
-    background-image: url(./../images/fondo);
-    font-family:font-family'Comfortaa', cursive;
-    font-family: 'Slabo 27px', serif;
-    overflow-x: hidden;
+  background: url(./../images/fondo\ violeta.jpg)
 }
 .h1{ 
     font-family: 'Bitter', serif;
@@ -16,8 +13,17 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-
-    
+.titulo1{
+    margin: 1.5rem;
+}
+.nuestroTrabajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mirada{
+    margin: 1rem;
+}
 
 .seccionDiv{
     width: 100%;
@@ -34,10 +40,7 @@ align-items: center;
 .hijo{
     border: 1px solid black;
 }
-.foter{
-    text-align: center;
-    background-color: rgb(15, 15, 15);
-}
+
 
 .parrafoindex{
     display: flex;
@@ -53,4 +56,19 @@ align-items: center;
 .foto{
     width: 7rem;
     height: 7rem;
+}
+.galeria{
+    width:100%;
+}
+.carousel-item{
+    height:50vh;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+.foter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
